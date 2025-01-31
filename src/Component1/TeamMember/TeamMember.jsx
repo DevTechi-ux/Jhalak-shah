@@ -1,6 +1,6 @@
 import teamThumb from '/images/team.jpg';
-import teamThumb2 from '/images/team2.jpg';
-import teamThumb3 from '/images/team3.jpg';
+// import teamThumb3 from '/images/team3.jpg';
+// import teamThumb2 from '/images/team2.jpg';
 import TeamCard from './TeamCard';
 import CountUp from 'react-countup';
 import circleShape from '/images/crcle-bg.png';
@@ -12,7 +12,6 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 import {
   FaFacebookF,
   FaLinkedinIn,
-  FaPinterestP,
   FaXTwitter,
 } from 'react-icons/fa6';
 
@@ -20,43 +19,42 @@ const teamData = [
   {
     id: 1,
     teamThumb: teamThumb,
-    teamTitle: 'Merina M. Banty',
+    teamTitle: 'Dr. Jhalak Shah',
     socialIcon: <FaFacebookF />,
     socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
+    socialIcon3: <FaLinkedinIn />,  
     teamSubTitle: 'Dentist',
-  },
-  {
-    id: 2,
-    teamThumb: teamThumb2,
-    teamTitle: 'Jone D. Alexon',
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
-    teamSubTitle: 'Therapist',
-  },
-  {
-    id: 3,
-    teamThumb: teamThumb3,
-    teamTitle: 'Jisan Khan',
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
-    teamSubTitle: 'Psychologist',
-  },
-  {
-    id: 4,
-    teamThumb: teamThumb2,
-    teamTitle: 'James E. Huey',
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,
-    socialIcon4: <FaPinterestP />,
-    teamSubTitle: 'Dentist',
-  },
+  }
+  // {
+  //   id: 2,
+  //   teamThumb: teamThumb2,
+  //   teamTitle: 'Jone D. Alexon',
+  //   socialIcon: <FaFacebookF />,
+  //   socialIcon2: <FaXTwitter />,
+  //   socialIcon3: <FaLinkedinIn />,
+  //   socialIcon4: <FaPinterestP />,
+  //   teamSubTitle: 'Therapist',
+  // },
+  // {
+  //   id: 3,
+  //   teamThumb: teamThumb3,
+  //   teamTitle: 'Jisan Khan',
+  //   socialIcon: <FaFacebookF />,
+  //   socialIcon2: <FaXTwitter />,
+  //   socialIcon3: <FaLinkedinIn />,
+  //   socialIcon4: <FaPinterestP />,
+  //   teamSubTitle: 'Psychologist',
+  // },
+  // {
+  //   id: 4,
+  //   teamThumb: teamThumb2,
+  //   teamTitle: 'James E. Huey',
+  //   socialIcon: <FaFacebookF />,
+  //   socialIcon2: <FaXTwitter />,
+  //   socialIcon3: <FaLinkedinIn />,
+  //   socialIcon4: <FaPinterestP />,
+  //   teamSubTitle: 'Dentist',
+  // },
 ];
 
 const TeamMember = () => {
@@ -107,7 +105,7 @@ const TeamMember = () => {
           >
             <h1 className='font-AlbertSans font-bold uppercase text-HeadingColor-0 text-xl leading-[30px] sm:text-3xl sm:leading-[40px] md:text-[40px] md:leading-[50px] lg:text-[50px] lg:leading-[60px] xl:text-[52px] xl:leading-[62px] 2xl:text-[60px] 2xl:leading-[70px]'>
               Meet Our Best <br />
-              Doctors
+              Doctor
             </h1>
           </div>
           <div
@@ -116,16 +114,16 @@ const TeamMember = () => {
             data-aos-duration='1000'
           >
             <div className='flex items-center gap-8 '>
-              <div>
+              {/* <div>
                 <CountUp
                   start={-11}
                   end={'58'}
                   suffix={'+'}
                   className='font-AlbertSans text-3xl sm:text-4xl md:text-[60px] leading-[50px] text-HeadingColor-0 font-bold'
                 />
-              </div>
+              </div> */}
               <p className='font-AlbertSans font-medium text-lg text-HeadingColor-0 uppercase'>
-                Top Expert <br /> Doctors
+                Top Expert <br /> Doctor
               </p>
             </div>
           </div>

@@ -35,7 +35,7 @@ const Footer = () => {
               Medical.
             </p>
             <form
-              action='#'
+              action='https://formspree.io/f/mgvoywga'
               method='post'
               className='relative w-11/12'
             >
@@ -92,7 +92,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to={'/'}
+                  to={'/about'}
                   className='inline-block'
                 >
                   <button className='flex items-center gap-2 font-AlbertSans font-medium -ml-5 hover:ml-0 text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-[18px]'>
@@ -103,7 +103,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to={'/'}
+                  to={'/service'}
                   className='inline-block'
                 >
                   <button className='flex items-center gap-2 font-AlbertSans font-medium -ml-5 hover:ml-0 text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-[18px]'>
@@ -112,9 +112,9 @@ const Footer = () => {
                   </button>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
-                  to={'/'}
+                  to={'/blog'}
                   className='inline-block'
                 >
                   <button className='flex items-center gap-2 font-AlbertSans font-medium -ml-5 hover:ml-0 text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1 mb-[18px]'>
@@ -122,10 +122,10 @@ const Footer = () => {
                     Blog
                   </button>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
-                  to={'/'}
+                  to={'/contact'}
                   className='inline-block'
                 >
                   <button className='flex items-center gap-2 font-AlbertSans font-medium -ml-5 hover:ml-0 text-white transition-all duration-500 hover:text-PrimaryColor-0 hover:gap-1'>
@@ -136,7 +136,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='col-span-12 md:col-span-6 lg:col-span-2'>
+          {/* <div className='col-span-12 md:col-span-6 lg:col-span-2'>
             <h4 className='font-AlbertSans text-2xl text-white font-semibold mb-[31px]'>
               Useful Links
             </h4>
@@ -197,7 +197,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className='col-span-12 md:col-span-6 lg:col-span-3'>
             <h4 className='font-AlbertSans text-2xl text-white font-semibold mb-[31px]'>
               Contact
@@ -209,7 +209,7 @@ const Footer = () => {
             <h5 className='font-AlbertSans font-medium text-white text-xl mt-6 mb-1'>
               E-Mail Us
             </h5>
-            <Link to={'/'}>
+            <Link to='mailto:jhalakdentist@gmail.com'>
               <button className='font-AlbertSans text-TextColor-0 transition-all duration-500 hover:text-PrimaryColor-0'>
                 jhalakdentist@gmail.com
               </button>
@@ -217,7 +217,7 @@ const Footer = () => {
             <h5 className='font-AlbertSans font-medium text-white text-xl mt-6 mb-[6px]'>
               Call Now
             </h5>
-            <Link to={'/'}>
+            <Link to='tel:+919106294632'>
               <button className='font-AlbertSans text-TextColor-0 transition-all duration-500 hover:text-PrimaryColor-0'>
                 +91 910 629 4632
               </button>
@@ -242,11 +242,11 @@ const Footer = () => {
                   <FaInstagram size={'20'} />
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button className='transition-all duration text-white hover:text-PrimaryColor-0'>
                   <FaPinterestP size={'20'} />
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/* <div>

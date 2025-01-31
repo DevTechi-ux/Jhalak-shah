@@ -1,4 +1,4 @@
-import serviceThumb from '/images/srvce.png';
+// import serviceThumb from '/images/srvce.png';
 import serviceThumb2 from '/images/srvce2.png';
 import serviceThumb3 from '/images/srvce3.png';
 import serviceThumb4 from '/images/srvce4.png';
@@ -14,15 +14,7 @@ import { Pagination } from 'swiper/modules';
 import ServiceNavigation from './ServiceNavigation';
 
 const ServiceData = [
-  {
-    id: 1,
-    serviceThumb: serviceThumb,
-    serviceShape: serviceShape,
-    serviceSubTitle: 'X-Ray',
-    serviceTitle: 'Digital X-Ray',
-    serviceUrl: '/',
-    btnIcon: <LuArrowUpRight />,
-  },
+  
   {
     id: 2,
     serviceThumb: serviceThumb2,
@@ -37,7 +29,7 @@ const ServiceData = [
     serviceThumb: serviceThumb3,
     serviceShape: serviceShape,
     serviceSubTitle: 'Surgery',
-    serviceTitle: 'Human Brain Surgery',
+    serviceTitle: 'Human Hair Transplant',
     serviceUrl: '/',
     btnIcon: <LuArrowUpRight />,
   },
@@ -55,7 +47,7 @@ const ServiceData = [
     serviceThumb: serviceThumb3,
     serviceShape: serviceShape,
     serviceSubTitle: 'Surgery',
-    serviceTitle: 'Human Brain Surgery',
+    serviceTitle: 'Dental Surgery',
     serviceUrl: '/',
     btnIcon: <LuArrowUpRight />,
   },
@@ -121,6 +113,7 @@ const Service = () => {
           data-aos='fade-left'
           data-aos-duration='1000'
         >
+        </div>
           <Link to={'/service_details'}>
             <button className='primary-btn mt-3 px-8'>
               View All Services
@@ -130,7 +123,6 @@ const Service = () => {
               />
             </button>
           </Link>
-        </div>
       </div>
       <div className='relative z-10 mt-[60px] before:absolute before:z-40 before:left-[25px] before:bottom-[302px] before:rotate-0 before:w-[2px] 2xl:before:h-[170px] before:bg-gradient-to-t before:from-PrimaryColor-0 before:to-transparent'>
         <Swiper

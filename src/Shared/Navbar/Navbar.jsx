@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Logo from '/images/logo.png';
 import Logo2 from '/images/logo2.png';
-import homeOne from '/images/home1.png';
+// import homeOne from '/images/home1.png';
 // import homeTwo from '/images/home2.png';
 // import homeThree from '/images/home3.png';
 // import homeFour from '/images/home4.png';
@@ -237,7 +237,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <MdLocationPin />
-                <Link to={'/'}>Behind Jail Building,Doctors,Colony, shahdol</Link>
+                <Link to={'/'}>Behind Jail Building, Doctors, Colony, Shahdol</Link>
               </li>
               <li>
                 <FaEnvelope />
@@ -278,9 +278,9 @@ const Navbar = () => {
               <Link to={'/'}>
                 <FaXTwitter />
               </Link>
-              <Link to={'/'}>
+              {/* <Link to={'/'}>
                 <FaPinterestP />
-              </Link>
+              </Link> */}
               <Link to={'/'}>
                 <FaLinkedinIn />
               </Link>
@@ -296,9 +296,9 @@ const Navbar = () => {
         <div className='px-2 lg:px-[30px]'>
           <div className='flex items-center justify-between lg:grid lg:grid-cols-12'>
             <div className='col-span-3'>
-              <div className='header-logo inline-block'>
+              <div className='header-logo inline-block' >
                 <Link to={'/'}>
-                  <img
+                  <img 
                     src={Logo}
                     draggable='false'
                   />
@@ -316,16 +316,16 @@ const Navbar = () => {
                       >
                         Home
                       </Link>
-                      <div className='submenu has-homemenu mega-menu !hidden lg:!block'>
+                      {/* <div className='submenu has-homemenu mega-menu !hidden lg:!block'> */}
                         <div className='grid grid-cols-1 lg:grid-cols-4 lg:gap-3'>
-                          <div className='homemenu'>
+                          {/* <div className='homemenu'>
                             <div className='homemenu-thumb'>
                               <Link to={'/'}>
                                 <img src={homeOne} />
                                 <h6>Live Demo</h6>
                               </Link>
                             </div>
-                          </div>
+                          </div> */}
                           {/* <div className='homemenu'>
                             <div className='homemenu-thumb'>
                               <Link to={'/home2'}>
@@ -354,17 +354,17 @@ const Navbar = () => {
                             </div>
                           </div> */}
                         </div>
-                      </div>
+                      {/* </div> */}
                       <ul className='submenu lg:hidden'>
                         <li>
                           <Link to={'/'}>Home Page One</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to={'/home2'}>Home Page Two</Link>
                         </li>
                         <li>
                           <Link to={'/home3'}>Home Page Three</Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </li>
                     <li>
@@ -406,17 +406,17 @@ const Navbar = () => {
                       </ul>
                     </li> */}
                     <li className='has-dropdown'>
-                      <Link to={'/'}>Services</Link>
-                      <ul className='submenu'>
+                      <Link to={'/service'}>Services</Link>
+                      {/* <ul className='submenu'>
                         <li>
                           <Link to={'/service'}>service</Link>
                         </li>
                         <li>
                           <Link to={'/service_details'}>service details</Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
-                    <li className='has-dropdown'>
+                    {/* <li className='has-dropdown'>
                       <Link to={'/'}>Blog</Link>
                       <ul className='submenu'>
                         <li>
@@ -436,7 +436,7 @@ const Navbar = () => {
                           <Link to={'/blog_details'}>blog details</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to={'/contact'}>Contact</Link>
                     </li>
@@ -446,11 +446,11 @@ const Navbar = () => {
             </div>
             <div className='col-span-3'>
               <div className='header-right-box flex items-center gap-10 lg:gap-0 justify-end'>
-                <div className='size-[50px] rounded-full bg-BodyBg2-0 hidden sm:flex lg:hidden 2xl:flex items-center justify-center text-HeadingColor-0 relative z-10 transition-all duration-500 hover:text-white before:absolute before:left-0 before:top-0 before:w-full before:rounded-full before:h-full before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:-z-10 before:scale-0 hover:before:scale-100'>
+                {/* <div className='size-[50px] rounded-full bg-BodyBg2-0 hidden sm:flex lg:hidden 2xl:flex items-center justify-center text-HeadingColor-0 relative z-10 transition-all duration-500 hover:text-white before:absolute before:left-0 before:top-0 before:w-full before:rounded-full before:h-full before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:-z-10 before:scale-0 hover:before:scale-100'>
                   <button onClick={handleMenuSearchClick}>
                     <IoSearch size={'18'} />
                   </button>
-                </div>
+                </div> */}
                 <div className='header-btn hidden lg:block'>
                   <Link to={'/appointment'}>
                     get Appointment<span></span>

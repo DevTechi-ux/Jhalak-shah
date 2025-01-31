@@ -116,7 +116,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <Link to={'/about'}>
+            {/* <Link to={'/about'}>
               <button className='primary-btn mt-3'>
                 More About
                 <GoArrowRight
@@ -124,7 +124,7 @@ const About = () => {
                   className='-rotate-45'
                 />
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

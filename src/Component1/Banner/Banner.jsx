@@ -9,7 +9,7 @@ import { GoArrowRight } from 'react-icons/go';
 import {
   FaInstagram,
   FaLinkedinIn,
-  FaPinterestP,
+
   FaSquareFacebook,
 } from 'react-icons/fa6';
 
@@ -138,7 +138,7 @@ const Banner = () => {
                 </span>
               </span>
             </li>
-            <li className='group relative'>
+            {/* <li className='group relative'>
               <Link to={'/'}>
                 <button className='text-white'>
                   <FaPinterestP size={'20'} />
@@ -149,7 +149,7 @@ const Banner = () => {
                   Pinterest
                 </span>
               </span>
-            </li>
+            </li> */}
             <li className='group relative'>
               <Link to={'/'}>
                 <button className='text-white'>

@@ -36,9 +36,9 @@ const ContentSlider = () => {
             className='animate-rotational'
           />
         </div>
-        {/* <div className='content-slider-content'>
+        <div className='content-slider-content'>
           <h1></h1>
-        </div> */}
+        </div>
         <div className='content-slider-content'>
           <img
             src={contentShape}
@@ -66,9 +66,9 @@ const ContentSlider = () => {
             className='animate-rotational'
           />
         </div>
-        {/* <div className='content-slider-content'>
+        <div className='content-slider-content'>
           <h1>NUEROLOGIST</h1>
-        </div> */}
+        </div>
       </div>
       <div className='content-slider'>
         <div className='content-slider-content'>
@@ -98,9 +98,9 @@ const ContentSlider = () => {
             className='animate-rotational'
           />
         </div>
-        {/* <div className='content-slider-content'>
+        <div className='content-slider-content'>
           <h1>NUEROLOGIST</h1>
-        </div> */}
+        </div>
         <div className='content-slider-content'>
           <img
             src={contentShape}
@@ -128,9 +128,9 @@ const ContentSlider = () => {
             className='animate-rotational'
           />
         </div>
-        {/* <div className='content-slider-content'>
+        <div className='content-slider-content'>
           <h1>NUEROLOGIST</h1>
-        </div> */}
+        </div>
       </div>
     </div>
   );

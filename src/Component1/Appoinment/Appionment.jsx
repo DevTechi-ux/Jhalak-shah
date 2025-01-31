@@ -45,7 +45,7 @@ const Appoinment = () => {
             Make an Online Appoinemnt <br /> Booking For Treatment Patients
           </h1>
           <form
-            action='https://formspree.io/f/xayrekgy'
+            action='https://formspree.io/f/mgvoywga'
             method='post'
             className='flex flex-col gap-y-5 mt-9'
           >
@@ -95,19 +95,19 @@ const Appoinment = () => {
                   value='subject2'
                   className='text-HeadingColor-0'
                 >
-                  indian
+                  Dental issue
                 </option>
                 <option
                   value='subject3'
                   className='text-HeadingColor-0'
                 >
-                  Arabic
+                  Hair issue
                 </option>
                 <option
                   value='subject4'
                   className='text-HeadingColor-0'
                 >
-                  China
+                  skin issue
                 </option>
               </select>
               <div className='relative inline-block'>

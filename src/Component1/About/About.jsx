@@ -1,4 +1,4 @@
-import aboutThumb from '/images/about.png';
+import aboutThumb from '/images/about.jpg';
 import heart from '/images/heart.png';
 import aboutShape from '/images/star.png';
 import aboutContentShape from '/images/dctr.png';
@@ -83,7 +83,7 @@ const About = () => {
                       startOffset='0%'
                       className='fill-white'
                     >
-                      Cosmetology *  Dental Surgery * HEALTHCARE *
+                      * Cosmetology *  DentalSurgery * HEALTHCARE *
                     </textPath>
                   </text>
                 </svg>

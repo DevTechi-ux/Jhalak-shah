@@ -91,7 +91,7 @@ const Blog = () => {
             data-aos='fade-up'
             data-aos-duration='1000'
           >
-            <Link to={'/blog_grid'}>
+            {/* <Link to={'/blog_grid'}>
               <button className='primary-btn mt-3'>
                 View all Blog
                 <GoArrowRight
@@ -99,7 +99,7 @@ const Blog = () => {
                   className='-rotate-45'
                 />
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className='mt-[56px]'>

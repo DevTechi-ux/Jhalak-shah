@@ -300,11 +300,11 @@ const Footer2 = () => {
           </div>
         </div>
         <div className='flex flex-col md:flex-row gap-y-7 md: md:col-span-6 justify-between md:items-center py-8 mt-[94px] border-t border-BorderColor2-0'>
-          <div>
+          {/* <div>
             <p className='font-AlbertSans text-[15px] flex items-center text-white'>
               Copyright &copy; 2024 Consalt. Designed & Developed by Dream-IT
             </p>
-          </div>
+          </div> */}
           <div>
             <ul className='flex gap-3 sm:gap-6'>
               <li>
@@ -312,11 +312,11 @@ const Footer2 = () => {
                   Facebook
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button className='font-AlbertSans text-[15px] flex items-center transition-all duration text-TextColor-0 hover:text-white uppercase'>
                   Pinterest
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button className='font-AlbertSans text-[15px] flex items-center transition-all duration text-TextColor-0 hover:text-white uppercase'>
                   LinkedIn

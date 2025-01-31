@@ -34,10 +34,10 @@ const TeamDetailsMain = () => {
             data-aos-duration='1000'
           >
             <h2 className='font-AlbertSans font-bold text-3xl sm:text-4xl text-HeadingColor-0 mb-1'>
-              Dr. Anjelina Jholi
+              Dr. jhalak shah
             </h2>
             <p className='font-AlbertSans text-TextColor2-0'>
-              Senior Heart Specialist
+              Senior Dental spacliest
             </p>
             <p className='font-AlbertSans text-TextColor2-0 mt-9 mb-10'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -55,7 +55,7 @@ const TeamDetailsMain = () => {
                     Call Us Anytime
                   </h5>
                   <p className='font-AlbertSans text-PrimaryColor-0 font-semibold md:text-2xl lg:text-xl 2xl:text-2xl transition-all duration-500 group-hover:text-white'>
-                    +123 (4547) 563
+                    +91 9106 294 632
                   </p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const TeamDetailsMain = () => {
                     Send E-Mail
                   </h5>
                   <p className='font-AlbertSans text-PrimaryColor-0 font-semibold md:text-2xl lg:text-xl 2xl:text-2x transition-all duration-500 group-hover:text-white'>
-                    info@gmail.com
+                    jhalakdentist@gmail.com
                   </p>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const TeamDetailsMain = () => {
                   Location
                 </h5>
                 <p className='font-AlbertSans text-PrimaryColor-0 text-lg transition-all duration-500 group-hover:text-white'>
-                  21 King Street 5th Floor Hamilton, Ontario Canada
+                  Behind jail Building, Doctors Colony Shahdol
                 </p>
               </div>
             </div>
@@ -150,7 +150,7 @@ const TeamDetailsMain = () => {
             </h2>
             <div className='mb-[22px]'>
               <h6 className='font-AlbertSans font-medium text-lg text-HeadingColor-0 pb-3'>
-                Human Brain Surgery
+                Cosmetology
               </h6>
               <ProgressBar
                 rect
@@ -228,7 +228,7 @@ const TeamDetailsMain = () => {
             </div>
             <div className='mb-[22px]'>
               <h6 className='font-AlbertSans font-medium text-lg text-HeadingColor-0 pb-3'>
-                Human Brain Surgery
+                Hair Treatment
               </h6>
               <ProgressBar
                 rect
@@ -254,7 +254,7 @@ const TeamDetailsMain = () => {
             </div>
             <div className='mb-[22px]'>
               <h6 className='font-AlbertSans font-medium text-lg text-HeadingColor-0 pb-3'>
-                Human Brain Surgery
+                Hair Removeal with Laser
               </h6>
               <ProgressBar
                 rect
@@ -364,19 +364,19 @@ const TeamDetailsMain = () => {
                     value='subject2'
                     className='text-HeadingColor-0'
                   >
-                    Bangla
+                    Dental
                   </option>
                   <option
                     value='subject3'
                     className='text-HeadingColor-0'
                   >
-                    Arabic
+                    Hair
                   </option>
                   <option
                     value='subject4'
                     className='text-HeadingColor-0'
                   >
-                    China
+                    Skin
                   </option>
                 </select>
                 <div className='relative inline-block'>

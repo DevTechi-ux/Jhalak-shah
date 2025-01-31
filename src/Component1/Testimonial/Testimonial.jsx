@@ -13,24 +13,17 @@ const testiData = [
   {
     id: 1,
     testiQuote: testiQuote,
-    testiDesc: `Quickly fashion backend strategic theme areas with
-                virtual growth strategies. Authoritatively
-                formulate competitive experiences rather than
-                granular manufactured products granular intelle
-                capital without equity invested`,
-    testiName: 'Jisan Khan',
+    testiDesc: `A satisfied patient review for a dental clinic might look something like: "I cannot recommend Rajnayan Multispeciality Dental & Cosmetic Laser Clinic enough! The staff are incredibly friendly and welcoming, and Dr. Jhalak Shah explained everything clearly and made me feel completely at ease during my procedure. The office is clean and modern, and I was very happy with the quality of care I received.`,
+    testiName: 'Nitish Chandraker',
     testiDesignation: 'Satisfied Patient',
     testiProfile: testiProfile,
   },
   {
     id: 2,
     testiQuote: testiQuote,
-    testiDesc: `Quickly fashion backend strategic theme areas with
-                virtual growth strategies. Authoritatively
-                formulate competitive experiences rather than
-                granular manufactured products granular intelle
-                capital without equity invested`,
-    testiName: 'Jisan Khan',
+    testiDesc: `A satisfied patient review for a dental clinic might look something like: "I cannot recommend Rajnayan Multispeciality Dental & Cosmetic Laser Clinic enough! The staff are incredibly friendly and welcoming, and Dr. Jhalak Shah explained everything clearly and made me feel completely at ease during my procedure. The office is clean and modern, and I was very happy with the quality of care I received.`,
+
+    testiName: 'Nitish Chandraker',
     testiDesignation: 'Satisfied Patient',
     testiProfile: testiProfile,
   },

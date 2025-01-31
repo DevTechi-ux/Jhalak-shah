@@ -230,7 +230,7 @@ const ServiceDetails5 = () => {
                   <FaUserDoctor size={'50'} />
                 </div>
                 <h4 className='font-DMSans font-medium text-[22px] text-white italic'>
-                  Competently architect intermandated deliverables client niches
+                  Provide ethical and environmentally responsible dental care.
                   continually underwhelm
                 </h4>
               </div>
@@ -246,11 +246,10 @@ const ServiceDetails5 = () => {
                 data-aos='fade-up'
                 data-aos-duration='1000'
               >
-                Methods empowerment. Dramatically architect go forward
-                opportunities credibly revolutionize front-end initiatives for
-                interoperable outsourcing. Conveniently repurpose market-driven
-                deliverables without holistic potentialitiess distinctively
-                integrate
+                Our focus is on providing high-quality, patient-centered care.
+                 We continuously strive to improve our services by utilizing the
+                latest medical advancements and technologies. Our team works 
+                collaboratively to ensure the best possible outcomes for our patients.
               </p>
               <Faq />
             </div>
@@ -280,7 +279,7 @@ const ServiceDetails5 = () => {
                       <button className='w-full font-AlbertSans text-left text-HeadingColor-0 transition-all duration-500 group px-7 py-4 flex items-center justify-between rounded-md bg-white bg-opacity-30 border-2 border-white border-opacity-80 mb-3 overflow-hidden z-[1] relative before:absolute before:top-0 before:right-0 before:w-0 before:-z-[1] before:h-full before:bg-PrimaryColor-0 before:rounded before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:border-PrimaryColor-0 hover:text-white'>
                         <span className='flex items-center gap-3 lg:gap-1 xl:gap-3'>
                           <FaRegFolderOpen className='text-PrimaryColor-0 transition-all duration-500 group-hover:text-white' />
-                          Pharmachology
+                          Cosmetology
                         </span>
                         <FaArrowRightLong className='text-PrimaryColor-0 transition-all duration-500 group-hover:text-white' />
                       </button>
@@ -291,7 +290,7 @@ const ServiceDetails5 = () => {
                       <button className='w-full font-AlbertSans text-left text-HeadingColor-0 transition-all duration-500 group px-7 py-4 flex items-center justify-between rounded-md bg-white bg-opacity-30 border-2 border-white border-opacity-80 mb-3 overflow-hidden z-[1] relative before:absolute before:top-0 before:right-0 before:w-0 before:-z-[1] before:h-full before:bg-PrimaryColor-0 before:rounded before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:border-PrimaryColor-0 hover:text-white'>
                         <span className='flex items-center gap-3 lg:gap-1 xl:gap-3'>
                           <FaRegFolderOpen className='text-PrimaryColor-0 transition-all duration-500 group-hover:text-white' />
-                          Plastic Surgery
+                          Skin Care
                         </span>
                         <FaArrowRightLong className='text-PrimaryColor-0 transition-all duration-500 group-hover:text-white' />
                       </button>
@@ -302,7 +301,7 @@ const ServiceDetails5 = () => {
                       <button className='w-full font-AlbertSans text-left text-HeadingColor-0 transition-all duration-500 group px-7 py-4 flex items-center justify-between rounded-md bg-white bg-opacity-30 border-2 border-white border-opacity-80 mb-3 overflow-hidden z-[1] relative before:absolute before:top-0 before:right-0 before:w-0 before:-z-[1] before:h-full before:bg-PrimaryColor-0 before:rounded before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:border-PrimaryColor-0 hover:text-white'>
                         <span className='flex items-center gap-3 lg:gap-1 xl:gap-3'>
                           <FaRegFolderOpen className='text-PrimaryColor-0 transition-all duration-500 group-hover:text-white' />
-                          Mental Care
+                          Hair Therapy
                         </span>
                         <FaArrowRightLong className='text-PrimaryColor-0 transition-all duration-500 group-hover:text-white' />
                       </button>
@@ -313,7 +312,7 @@ const ServiceDetails5 = () => {
                       <button className='w-full font-AlbertSans text-left text-white transition-all duration-500 group px-7 py-4 flex items-center justify-between rounded-md bg-PrimaryColor-0 bg-opacity-100 border-2 border-PrimaryColor-0 border-opacity-100 mb-3 overflow-hidden z-[1] relative before:absolute before:top-0 before:right-0 before:w-0 before:-z-[1] before:h-full before:bg-PrimaryColor-0 before:rounded before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:border-PrimaryColor-0 hover:text-white'>
                         <span className='flex items-center gap-3 lg:gap-1 xl:gap-3'>
                           <FaRegFolderOpen className='text-white transition-all duration-500 group-hover:text-white' />
-                          Hematology
+                          Tatto removeal
                         </span>
                         <FaArrowRightLong className='text-white transition-all duration-500 group-hover:text-white' />
                       </button>
@@ -382,13 +381,13 @@ const ServiceDetails5 = () => {
                 </h6>
                 <Link to={'/'}>
                   <button className='font-AlbertSans font-semibold text-2xl text-white'>
-                    +123 (4567) 890
+                    +91 9106 294 632
                   </button>
                 </Link>
                 <Link to={'/'}>
                   <button className='font-AlbertSans text-white flex gap-2 items-center mt-4 mb-[52px]'>
                     <MdEmail className='text-xl text-PrimaryColor-0' />
-                    example@gmail.com
+                    jhalakdentist@gmail.com
                   </button>
                 </Link>
                 <Link to={'/contact'}>

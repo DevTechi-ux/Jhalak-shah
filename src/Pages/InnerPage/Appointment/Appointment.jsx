@@ -15,11 +15,10 @@ const TestiData = [
   {
     id: 1,
     testiQuote: testiQuote,
-    testiDesc: `Quickly fashion backend strategic theme areas with
-                virtual growth strategies. Authoritatively
-                formulate competitive experiences rather than
-                granular manufactured products granular intelle
-                capital without equity invested`,
+    testiDesc: ` Implement virtual consultations to enhance
+     patient access and convenience, allowing for initial 
+     assessments and follow-ups without the need for 
+     in-person visits.`,
     testiName: 'Jisan Khan',
     testiDesignation: 'Satisfied Patient',
     testiProfile: testiProfile,
@@ -27,11 +26,11 @@ const TestiData = [
   {
     id: 2,
     testiQuote: testiQuote,
-    testiDesc: `Quickly fashion backend strategic theme areas with
-                virtual growth strategies. Authoritatively
-                formulate competitive experiences rather than
-                granular manufactured products granular intelle
-                capital without equity invested`,
+    testiDesc: `I recently underwent PRP therapy at Clinic Name and I
+     couldn t be happier with the results! From the moment I walked in,
+      the staff was incredibly welcoming and professional. They took the 
+      time to explain the entire process, addressing all my concerns
+       and making me feel at ease.`,
     testiName: 'Jisan Khan',
     testiDesignation: 'Satisfied Patient',
     testiProfile: testiProfile,
@@ -143,7 +142,7 @@ const Appoinment = () => {
                 Make an Online Appoinemnt <br /> Booking For Treatment Patients
               </h1>
               <form
-                action='#'
+                action='https://formspree.io/f/mgvoywga'
                 method='post'
                 className='flex flex-col gap-y-5 mt-9'
               >
@@ -193,19 +192,19 @@ const Appoinment = () => {
                       value='subject2'
                       className='text-HeadingColor-0'
                     >
-                      Bangla
+                      Dental
                     </option>
                     <option
                       value='subject3'
                       className='text-HeadingColor-0'
                     >
-                      Arabic
+                      Hair
                     </option>
                     <option
                       value='subject4'
                       className='text-HeadingColor-0'
                     >
-                      China
+                      Skin
                     </option>
                   </select>
                   <div className='relative inline-block'>

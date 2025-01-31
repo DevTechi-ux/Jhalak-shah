@@ -207,7 +207,7 @@ const Footer = () => {
               <span>Closed</span>
             </p>
             <form
-              action='#'
+              action='/'
               method='post'
               className='relative'
             >

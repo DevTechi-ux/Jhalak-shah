@@ -8,7 +8,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0);
   visibility: hidden;
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
   opacity: 0;
   transition: 0.45s ease-in-out;
 }
@@ -937,7 +937,7 @@ nav.main-menu-content > ul > li > a:hover > span {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0);
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
   visibility: hidden;
   opacity: 0;
   transition: 0.45s ease-in-out;
@@ -1230,7 +1230,7 @@ nav.main-menu-content > ul > li > a:hover > span {
   transform: translateY(-100%);
   background: rgba(0, 0, 0, 0.2);
   transition: all 1500ms cubic-bezier(0.86, 0, 0.07, 1);
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
 }
 
 .search-active .search-popup {
@@ -1356,4 +1356,8 @@ nav.main-menu-content > ul > li > a:hover > span {
 
 .form-group input::placeholder {
   color: #000000;
+}
+
+.header-logo img{
+  width: 35%;
 }

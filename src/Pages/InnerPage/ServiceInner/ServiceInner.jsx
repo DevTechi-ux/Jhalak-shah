@@ -21,41 +21,37 @@ const serviceData = [
     id: 1,
     serviceIcon: serviceIcon,
     serviceIcon2: serviceIcon2,
-    serviceTitle: 'Couple Therapy',
+    serviceTitle: 'Tailored kits for Dental',
     serviceDesc:
-      'Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.',
-    serviceUrl: '/service_details',
-    serviceButton: 'Read More',
+      'Tailored kits for dental practices offer a convenient and efficient solution for streamlining various aspects of patient care and practice management.',
+    serviceUrl: '/service_details'
   },
   {
     id: 2,
     serviceIcon: serviceIcon3,
     serviceIcon2: serviceIcon4,
-    serviceTitle: 'Family Counseling',
+    serviceTitle: 'Cosmetology',
     serviceDesc:
-      'Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.',
-    serviceUrl: '/service_details',
-    serviceButton: 'Read More',
+      'As a cosmetologist, my goal is to provide exceptional service to my clients, making them feel relaxed, rejuvenated, and confident in their own skin',
+    serviceUrl: '/service_details'
   },
   {
     id: 3,
     serviceIcon: serviceIcon5,
     serviceIcon2: serviceIcon6,
-    serviceTitle: 'Personal Meeting',
+    serviceTitle: ' Semi-Permanent makeup',
     serviceDesc:
-      'Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.',
-    serviceUrl: '/service_details',
-    serviceButton: 'Read More',
+      'traditional makeup, with benefits including enhanced natural beauty, increased confidence, and a significant reduction in daily makeup routines, making it a highly sought-after treatment in the beauty industry.',
+    serviceUrl: '/service_details'
   },
   {
     id: 4,
     serviceIcon: serviceIcon7,
     serviceIcon2: serviceIcon8,
-    serviceTitle: 'Anxiety Disorder',
+    serviceTitle: 'Hair fal Soluation',
     serviceDesc:
-      'Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.',
-    serviceUrl: '/service_details',
-    serviceButton: 'Read More',
+      'Say Goodbye to Hair Fall, Hello to Fuller Locks with Dr. jhalak shah Revolutionary Hair Restoration Solutions  Regrow, Revitalize, and Reveal the Hair You ve Always Wanted',
+    serviceUrl: '/service_details'
   },
   {
     id: 5,
@@ -64,18 +60,16 @@ const serviceData = [
     serviceTitle: 'Group Therapy',
     serviceDesc:
       'Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.',
-    serviceUrl: '/service_details',
-    serviceButton: 'Read More',
+    serviceUrl: '/service_details'
   },
   {
     id: 6,
     serviceIcon: serviceIcon11,
     serviceIcon2: serviceIcon12,
-    serviceTitle: 'Parening Lession',
+    serviceTitle: 'Hair Removeal with laser',
     serviceDesc:
       'Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.',
-    serviceUrl: '/service_details',
-    serviceButton: 'Read More',
+    serviceUrl: '/service_details'
   },
 ];
 
