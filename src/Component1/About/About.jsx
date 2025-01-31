@@ -1,5 +1,5 @@
-  import aboutThumb from '/images/about.png';
-  import heart from '/images/heart.png';
+  import aboutThumb from '/images/about.jpg';
+  // import heart from '/images/heart.png';
   import aboutShape from '/images/star.png';
   import aboutContentShape from '/images/dctr.png';
   import { Link } from 'react-router-dom';
@@ -64,7 +64,7 @@
                 draggable='false'
                 className='w-full 2xl:w-[inherit]'
               />
-              <div className='absolute top-0 right-0 xl:top-0 xl:right-0 size-[90px] sm:size-[162px] md:size-[220px] lg:size-[150px] xl:size-[170px] 2xl:size-[200px] bg-PrimaryColor-0 rounded-[30px] flex items-center justify-center'>
+              {/* <div className='absolute top-0 right-0 xl:top-0 xl:right-0 size-[90px] sm:size-[162px] md:size-[220px] lg:size-[150px] xl:size-[170px] 2xl:size-[200px] bg-PrimaryColor-0 rounded-[30px] flex items-center justify-center'>
                 <div className='size-14 sm:size-24 md:size-36 lg:size-28 xl:size-[120px] 2xl:size-[130px] animate-rotational '>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -95,7 +95,7 @@
                     className='animate-pulse'
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
             {/* <div
               className='relative'

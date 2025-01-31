@@ -104,7 +104,7 @@ const TeamMember = () => {
             data-aos-duration='1000'
           >
             <h1 className='font-AlbertSans font-bold uppercase text-HeadingColor-0 text-xl leading-[30px] sm:text-3xl sm:leading-[40px] md:text-[40px] md:leading-[50px] lg:text-[50px] lg:leading-[60px] xl:text-[52px] xl:leading-[62px] 2xl:text-[60px] 2xl:leading-[70px]'>
-              Meet Our Best <br />
+              Meet Our 
               Doctor
             </h1>
           </div>
@@ -113,19 +113,19 @@ const TeamMember = () => {
             data-aos='fade-up'
             data-aos-duration='1000'
           >
-            <div className='flex items-center gap-8 '>
-              {/* <div>
+            {/* <div className='flex items-center gap-8 '>
+              <div>
                 <CountUp
                   start={-11}
                   end={'58'}
                   suffix={'+'}
                   className='font-AlbertSans text-3xl sm:text-4xl md:text-[60px] leading-[50px] text-HeadingColor-0 font-bold'
                 />
-              </div> */}
+              </div>
               <p className='font-AlbertSans font-medium text-lg text-HeadingColor-0 uppercase'>
                Expert <br /> Doctor
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div
