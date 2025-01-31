@@ -114,7 +114,7 @@ const Banner = () => {
         </div>
         <div className='absolute top-1/2 -translate-y-1/2 right-5 xl:right-10 hidden md:block'>
           <ul className='flex flex-col items-center gap-[26px]'>
-            <li className='group relative'>
+            {/* <li className='group relative'>
               <Link to={'/'}>
                 <button className='text-white'>
                   <FaSquareFacebook size={'20'} />
@@ -125,9 +125,10 @@ const Banner = () => {
                   Facebook
                 </span>
               </span>
-            </li>
+            </li> */}
             <li className='group relative'>
-              <Link to={'/'}>
+              <Link to={'https://www.linkedin.com/in/dr-jhalak-gandhi-b77268203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '}
+                target='_blank'>
                 <button className='text-white'>
                   <FaLinkedinIn size={'20'} />
                 </button>
@@ -151,7 +152,8 @@ const Banner = () => {
               </span>
             </li> */}
             <li className='group relative'>
-              <Link to={'/'}>
+              <Link to={'https://www.instagram.com/smileexpertshahdol?igsh=MWdkeWJma2xhamt3OQ=='}
+                target='_blank'>
                 <button className='text-white'>
                   <FaInstagram size={'20'} />
                 </button>

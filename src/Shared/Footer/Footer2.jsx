@@ -51,7 +51,7 @@ const Footer2 = () => {
               <ul className='flex gap-3 items-center'>
                 <li>
                   <Link
-                    to={'/'}
+                    to={'https://www.facebook.com/profile.php?id=100009111888888'}
                     className='size-[48px] flex justify-center items-center rounded-full bg-BorderColor2-0 transition-all duration-500 text-white hover:text-PrimaryColor-0 relative z-10 after:absolute after:rounded-full after:top-0 after:left-0 after:bg-white after:w-full after:h-full after:scale-0 after:-z-10 after:transition-all after:duration-500 hover:after:scale-100'
                   >
                     <ImFacebook2 size={'15'} />
@@ -59,7 +59,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <Link
-                    to={'/'}
+                    to={'https://x.com/jhalakdentist '}
                     className='size-[48px] flex justify-center items-center rounded-full bg-BorderColor2-0 transition-all duration-500 text-white hover:text-PrimaryColor-0 relative z-10 after:absolute after:rounded-full after:top-0 after:left-0 after:bg-white after:w-full after:h-full after:scale-0 after:-z-10 after:transition-all after:duration-500 hover:after:scale-100'
                   >
                     <FaXTwitter />
@@ -67,7 +67,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <Link
-                    to={'/'}
+                    to={'https://www.linkedin.com/in/jhalak-dentist-2007/'}
                     className='size-[48px] flex justify-center items-center rounded-full bg-BorderColor2-0 transition-all duration-500 text-white hover:text-PrimaryColor-0 relative z-10 after:absolute after:rounded-full after:top-0 after:left-0 after:bg-white after:w-full after:h-full after:scale-0 after:-z-10 after:transition-all after:duration-500 hover:after:scale-100'
                   >
                     <FaLinkedinIn />
@@ -75,7 +75,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <Link
-                    to={'/'}
+                    to={'https://www.instagram.com/jhalakdentist/'}
                     className='size-[48px] flex justify-center items-center rounded-full bg-BorderColor2-0 transition-all duration-500 text-white hover:text-PrimaryColor-0 relative z-10 after:absolute after:rounded-full after:top-0 after:left-0 after:bg-white after:w-full after:h-full after:scale-0 after:-z-10 after:transition-all after:duration-500 hover:after:scale-100'
                   >
                     <FaInstagram />

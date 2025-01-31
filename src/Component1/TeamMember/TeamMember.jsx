@@ -10,9 +10,9 @@ import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 import {
-  FaFacebookF,
+  FaInstagram,
   FaLinkedinIn,
-  FaXTwitter,
+  FaFacebookF,
 } from 'react-icons/fa6';
 
 const teamData = [
@@ -20,9 +20,9 @@ const teamData = [
     id: 1,
     teamThumb: teamThumb,
     teamTitle: 'Dr. Jhalak Shah',
-    socialIcon: <FaFacebookF />,
-    socialIcon2: <FaXTwitter />,
-    socialIcon3: <FaLinkedinIn />,  
+    socialIcon: <FaInstagram />,
+    socialIcon2: <FaFacebookF />,
+    socialIcon3: <FaLinkedinIn />,
     teamSubTitle: 'Dentist',
   }
   // {
@@ -123,7 +123,7 @@ const TeamMember = () => {
                 />
               </div> */}
               <p className='font-AlbertSans font-medium text-lg text-HeadingColor-0 uppercase'>
-                Top Expert <br /> Doctor
+               Expert <br /> Doctor
               </p>
             </div>
           </div>
@@ -146,7 +146,7 @@ const TeamMember = () => {
                 socialIcon,
                 socialIcon2,
                 socialIcon3,
-                socialIcon4,
+              
                 teamSubTitle,
               }) => {
                 return (
@@ -158,7 +158,7 @@ const TeamMember = () => {
                         socialIcon={socialIcon}
                         socialIcon2={socialIcon2}
                         socialIcon3={socialIcon3}
-                        socialIcon4={socialIcon4}
+
                         teamSubTitle={teamSubTitle}
                       />
                     </div>

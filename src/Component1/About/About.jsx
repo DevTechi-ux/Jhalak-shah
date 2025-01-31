@@ -103,11 +103,10 @@ const About = () => {
             data-aos-duration='1000'
           >
             <h5 className='font-AlbertSans font-medium text-sm sm:text-base text-PrimaryColor-0 uppercase mb-4'>
-              sem-permanent makeup procedures
+              semi-permanent makeup procedures
             </h5>
             <h1 className='font-AlbertSans font-bold text-HeadingColor-0 text-[16px] leading-[23px] sm:text-[22px] sm:leading-[35px] md:text-[30px] md:leading-[35px] lg:text-[26px] lg:leading-[33px] xl:text-[32px] xl:leading-[39px] 2xl:text-[32px] 2xl:leading-[39px]'>
-              Since 2007 We’re working Medical group of more than 1200+ Patients
-              help from our medical
+            Since 2007, our medical group has been providing care to over 1,200 patients, offering valuable support through our services.
             </h1>
             <h5 className='font-AlbertSans font-semibold text-lg sm:text-[22px] text-HeadingColor-0 mt-10 mb-6'>
               We’re Putting your Comfort List
@@ -119,7 +118,7 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                   <h5 className='font-DMSans text-HeadingColor-0'>
-                    Completely safe
+                    Completely Safe
                   </h5>
                 </div>
               </div>

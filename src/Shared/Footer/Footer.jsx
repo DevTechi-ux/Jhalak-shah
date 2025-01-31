@@ -228,19 +228,28 @@ const Footer = () => {
           <div>
             <ul className='flex gap-4 sm:gap-8'>
               <li>
-                <button className='transition-all duration text-white hover:text-PrimaryColor-0'>
-                  <FaFacebookF size={'20'} />
-                </button>
+                <Link to={'https://www.facebook.com/profile.php?id=100009111888888'}
+                target='_blank'>
+                  <button className='transition-all duration text-white hover:text-PrimaryColor-0'>
+                    <FaFacebookF size={'20'} />
+                  </button>
+                </Link>
               </li>
               <li>
-                <button className='transition-all duration text-white hover:text-PrimaryColor-0'>
-                  <FaLinkedinIn size={'20'} />
-                </button>
+                <Link to={'https://www.linkedin.com/in/jhalak-dentist-2007/'}
+                target='_blank'>
+                  <button className='transition-all duration text-white hover:text-PrimaryColor-0'>
+                    <FaLinkedinIn size={'20'} />
+                  </button>
+                </Link>
               </li>
               <li>
-                <button className='transition-all duration text-white hover:text-PrimaryColor-0'>
-                  <FaInstagram size={'20'} />
-                </button>
+                <Link to={'https://www.instagram.com/jhalakdentist/'}
+                target='_blank'>
+                  <button className='transition-all duration text-white hover:text-PrimaryColor-0'>
+                    <FaInstagram size={'20'} />
+                  </button>
+                </Link>
               </li>
               {/* <li>
                 <button className='transition-all duration text-white hover:text-PrimaryColor-0'>

@@ -16,21 +16,25 @@ const TeamCard = ({
         <div className="team-icon absolute z-10 bottom-1/2 left-1/2 -translate-x-1/2 opacity-0 transition-all duration-500 group-hover:bottom-[34px] group-hover:opacity-100">
           <ul className="flex gap-3">
             <li>
-              <Link to={"/"}>
+              <Link to={'https://www.instagram.com/smileexpertshahdol?igsh=MWdkeWJma2xhamt3OQ=='}
+                target='_blank'>
                 <button className="size-10 flex justify-center items-center rounded-full overflow-hidden relative bg-white transition-all duration-500 hover:text-white text-PrimaryColor-0 z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-Secondarycolor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
                   {socialIcon}
                 </button>
               </Link>
             </li>
             <li>
-              <Link to={"/"}>
+            <Link to={'https://www.facebook.com/profile.php?id=100086881188888'}
+             
+                target='_blank'>
                 <button className="size-10 flex justify-center items-center rounded-full overflow-hidden relative bg-white transition-all duration-500 hover:text-white text-PrimaryColor-0 z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-Secondarycolor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
                   {socialIcon2}
                 </button>
               </Link>
             </li>
             <li>
-              <Link to={"/"}>
+            <Link to={"https://www.linkedin.com/in/dr-jhalak-gandhi-b77268203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "}
+                target='_blank'>
                 <button className="size-10 flex justify-center items-center rounded-full overflow-hidden relative bg-white transition-all duration-500 hover:text-white text-PrimaryColor-0 z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-Secondarycolor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 hover:before:scale-100">
                   {socialIcon3}
                 </button>

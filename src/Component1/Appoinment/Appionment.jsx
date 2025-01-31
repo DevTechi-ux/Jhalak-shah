@@ -21,7 +21,7 @@ const Appoinment = () => {
         data-aos-duration='1000'
       >
         <h1 className='font-AlbertSans font-bold uppercase text-HeadingColor-0 text-xl leading-[30px] sm:text-3xl sm:leading-[40px] md:text-[40px] md:leading-[50px] lg:text-[50px] lg:leading-[60px] xl:text-[52px] xl:leading-[62px] 2xl:text-[60px] 2xl:leading-[70px]'>
-          Make Appionment
+          Make Appointment
         </h1>
       </div>
       <div className='bg-[url(/images/appoinment.png)] bg-cover bg-no-repeat bg-center grid grid-cols-1 lg:grid-cols-2 pt-[110px] pb-[118px] lg:border-x-2 2xl:border-x-0 border-white rounded-[30px] relative z-10'>
@@ -42,7 +42,7 @@ const Appoinment = () => {
             FINANCE CONSULTING
           </h5>
           <h1 className='font-AlbertSans font-bold text-HeadingColor-0 text-[16px] leading-[23px] sm:text-[22px] sm:leading-[35px] md:text-[30px] md:leading-[35px] lg:text-[28px] lg:leading-[35px] xl:text-[32px] xl:leading-[39px] 2xl:text-[32px] 2xl:leading-[39px]'>
-            Make an Online Appoinemnt <br /> Booking For Treatment Patients
+            Make an Online Appointment <br /> Booking For Treatment Patients
           </h1>
           <form
             action='https://formspree.io/f/mgvoywga'
