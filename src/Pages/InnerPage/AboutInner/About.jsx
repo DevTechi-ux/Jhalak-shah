@@ -32,8 +32,8 @@ const About = () => {
                 <div>
                   <CountUp
                     start={-11}
-                    end={'275'}
-                    suffix={'k'}
+                    end={'12'}
+                    suffix={'k+'}
                     className='font-AlbertSans text-3xl sm:text-4xl md:text-[45px] leading-10 text-white font-bold'
                   />
                 </div>
@@ -45,7 +45,7 @@ const About = () => {
                 <div>
                   <CountUp
                     start={-11}
-                    end={'90'}
+                    end={'100'}
                     suffix={'%'}
                     className='font-AlbertSans text-3xl sm:text-4xl md:text-[45px] leading-10 text-white font-bold'
                   />

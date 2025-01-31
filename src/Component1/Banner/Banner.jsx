@@ -44,13 +44,13 @@ const Banner = () => {
                   className='animate-rotateX w-10 sm:w-[inherit]'
                 />
               </div>
-              <div className='absolute z-10 left-1/2 -translate-x-1/2 -top-28 hidden lg:block'>
+              {/* <div className='absolute z-10 left-1/2 -translate-x-1/2 -top-28 hidden lg:block'>
                 <img
                   src={bannerThumb}
                   draggable='false'
                   className='max-w-[inherit]'
                 />
-              </div>
+              </div> */}
               <div className='flex items-center justify-center gap-6 w-full relative z-20 lg:mt-8 2xl:mt-5'>
                 <div className='bg-white bg-opacity-20 backdrop-filter filter-blur-[5px] backdrop-blur-lg hidden sm:flex items-center gap-[15px] rounded-full py-[14px] px-5'>
                   <img
@@ -58,7 +58,7 @@ const Banner = () => {
                     draggable='false'
                   />
                   <h5 className='font-AlbertSans font-semibold text-white text-lg uppercase'>
-                    Memebers
+                    Members
                   </h5>
                 </div>
                 <h1 className='font-AlbertSans font-extrabold text-3xl sm:text-5xl md:text-[70px] xl:text-[110px] text-white uppercase'>

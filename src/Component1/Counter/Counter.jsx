@@ -24,7 +24,7 @@ const Counter = () => {
                   data-aos='fade-up'
                   data-aos-duration='1000'
                 >
-                  Medical Achivement <br /> Health Protection
+                  Medical Achievements <br /> Health Protection
                 </h2>
               </div>
             </div>
