@@ -1,6 +1,7 @@
 // import serviceThumb from '/images/srvce.png';
 import serviceThumb2 from '/images/srvce2.png';
-import serviceThumb3 from '/images/srvce3.png';
+import serviceThumb3 from '/images/serve_dental.jpg';
+import serviceThumb5 from '/images/serve_hair.jpg';
 import serviceThumb4 from '/images/srvce4.png';
 import ServiceCard from './ServiceCard';
 import serviceShape from '/images/srvce-shp.png';
@@ -26,7 +27,7 @@ const ServiceData = [
   },
   {
     id: 3,
-    serviceThumb: serviceThumb3,
+    serviceThumb: serviceThumb5,
     serviceShape: serviceShape,
     serviceSubTitle: 'Surgery',
     serviceTitle: 'Human Hair Transplant',

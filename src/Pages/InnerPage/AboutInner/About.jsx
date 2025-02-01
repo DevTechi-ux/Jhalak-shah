@@ -68,9 +68,7 @@ const About = () => {
               Best Health Center <br /> Since - 2007
             </h1>
             <p className='font-DMSans text-TextColor2-0 mt-4 mb-5'>
-              our comfort is our top priority at Rajnayan MUltispeciality Dental & Cosmetic Laser Clinic.
-               We understand that visiting the dentist can be stressful for some,
-               which is why we created a warm and welcoming environment designed to put you at ease.
+            At Rajnayan Multispeciality Dental & Cosmetic Laser Clinic, your comfort is our top priority. We recognize that dental visits can be stressful for some, so we've created a warm and welcoming environment to help you feel at ease.
             </p>
             <div className='grid items-center grid-cols-1 gap-7 sm:grid-cols-2 pb-[18px] pt-4'>
               <div className='flex items-center gap-3'>
