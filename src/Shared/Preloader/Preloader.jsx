@@ -23,44 +23,7 @@ const Preloader = () => {
       <div className='animation-preloader'>
         <div className='spinner'></div>
         <div className='loader'></div>
-        <div className='txt-loading'>
-          <span
-            data-text-preloader='M'
-            className='letters-loading'
-          >
-            M
-          </span>
-          <span
-            data-text-preloader='E'
-            className='letters-loading'
-          >
-            E
-          </span>
-          <span
-            data-text-preloader='D'
-            className='letters-loading'
-          >
-            D
-          </span>
-          <span
-            data-text-preloader='I'
-            className='letters-loading'
-          >
-            I
-          </span>
-          <span
-            data-text-preloader='I'
-            className='letters-loading'
-          >
-            I
-          </span>
-          <span
-            data-text-preloader='C'
-            className='letters-loading'
-          >
-            C
-          </span>
-        </div>
+        {/* m */}
       </div>
     </div>
   );
