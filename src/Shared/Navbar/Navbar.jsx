@@ -237,15 +237,15 @@ const Navbar = () => {
             <ul>
               <li>
                 <MdLocationPin />
-                <Link to={'/'}>Behind Jail Building, Doctors, Colony, Shahdol</Link>
+                <Link href='https://maps.app.goo.gl/y3456789012345678901234567890123'>Behind Jail Building, Doctors, Colony, Shahdol</Link>
               </li>
               <li>
                 <FaEnvelope />
-                <Link to={'/'}>jhalakdentist@gmail.com</Link>
+                <Link href='mailto:jhalakdentist@gmail.com'>jhalakdentist@gmail.com</Link>
               </li>
               <li>
                 <FaPhoneAlt />
-                <Link to={'/'}>+91 910629 4632</Link>
+                <Link href='tel:+91 910629 4632'>+91 910629 4632</Link>
               </li>
             </ul>
           </div>
@@ -254,7 +254,7 @@ const Navbar = () => {
               <h4>Get Update</h4>
             </div>
             <form
-              action='#'
+              action='https://formsubmit.co/jhalakdentist@gmail.com'
               method='post'
             >
               <div className='relative'>
@@ -272,16 +272,16 @@ const Navbar = () => {
           </div>
           <div className='offcanvas_social'>
             <div className='social-icon'>
-              <Link to={'/'}>
+              <Link to={'https://www.facebook.com/jhalak.dentist'}>
                 <FaFacebookF />
               </Link>
-              <Link to={'/'}>
+              <Link to={'https://x.com/jhalakdentist'}>
                 <FaXTwitter />
               </Link>
               {/* <Link to={'/'}>
                 <FaPinterestP />
               </Link> */}
-              <Link to={'/'}>
+              <Link to={'https://www.linkedin.com/company/jhalak-dentist'}>
                 <FaLinkedinIn />
               </Link>
             </div>
@@ -309,7 +309,7 @@ const Navbar = () => {
               <div className='header-main-menu text-center'>
                 <nav className='main-menu-content'>
                   <ul>
-                    <li className='has-dropdown'>
+                    <li>
                       <Link
                         to={'/'}
                         className='active'
@@ -355,17 +355,17 @@ const Navbar = () => {
                           </div> */}
                         </div>
                       {/* </div> */}
-                      <ul className='submenu lg:hidden'>
+                      {/* <ul className='submenu lg:hidden'>
                         <li>
                           <Link to={'/'}>Home Page One</Link>
                         </li>
-                        {/* <li>
+                        <li>
                           <Link to={'/home2'}>Home Page Two</Link>
                         </li>
                         <li>
                           <Link to={'/home3'}>Home Page Three</Link>
-                        </li> */}
-                      </ul>
+                        </li>
+                      </ul> */}
                     </li>
                     <li>
                       <Link to={'/about'}>About</Link>
@@ -405,7 +405,7 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </li> */}
-                    <li className='has-dropdown'>
+                    <li>
                       <Link to={'/service'}>Services</Link>
                       {/* <ul className='submenu'>
                         <li>
@@ -561,15 +561,15 @@ const Navbar = () => {
               <ul>
                 <li>
                   <MdLocationPin />
-                  <Link to={'/'}>Behind jail Building,Doctors,Colony,shahdol</Link>
+                  <Link href='https://maps.app.goo.gl/y3456789012345678901234567890123'>Behind jail Building,Doctors,Colony,shahdol</Link>
                 </li>
                 <li>
                   <FaEnvelope />
-                  <Link to={'/'}>jhalakdentist@gmail.com</Link>
+                  <Link href='mailto:jhalakdentist@gmail.com'>jhalakdentist@gmail.com</Link>
                 </li>
                 <li>
                   <FaPhoneAlt />
-                  <Link to={'/'}>+91 910 629 4632</Link>
+                  <Link href='tel:+91 910 629 4632'>+91 910 629 4632</Link>
                 </li>
               </ul>
             </div>
@@ -596,22 +596,22 @@ const Navbar = () => {
             </div>
             <ul className='sidebar-social-icon'>
               <li>
-                <Link to={'/'}>
+                <Link to={'https://www.facebook.com/jhalak.dentist'}>
                   <FaFacebookF />
                 </Link>
               </li>
               <li>
-                <Link to={'/'}>
+                <Link to={'https://x.com/jhalakdentist'}>
                   <FaXTwitter />
                 </Link>
               </li>
-              <li>
-                <Link to={'/'}>
+              {/* <li>
+                <Link to={'https://www.instagram.com/jhalakdentist'}>
                   <FaPinterestP />
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link to={'/'}>
+                <Link to={'https://www.linkedin.com/company/jhalak-dentist'}>
                   <FaLinkedinIn />
                 </Link>
               </li>
