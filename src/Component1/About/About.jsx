@@ -5,7 +5,7 @@
   import { Link } from 'react-router-dom';
   import CountUp from 'react-countup';
   import { FaCircleCheck } from 'react-icons/fa6';
-  import { GoArrowRight } from 'react-icons/go';
+  // import { GoArrowRight } from 'react-icons/go';
 
   const About = () => {
     return (
