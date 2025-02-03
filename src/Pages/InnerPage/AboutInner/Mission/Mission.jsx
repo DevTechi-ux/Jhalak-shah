@@ -17,7 +17,7 @@ const MissionData = [
     id: 3,
     missionIcon: missionIcon,
     missionTitle: 'Our Values',
-    missionDesc: '*Compassionate Care:* We treat every patient with kindness and respect, ensuring a comfortable and welcoming environment. \n *Innovation:* Embracing the latest advancements in dental and cosmetic laser technology to provide effective and efficient treatments. \n *Integrity:* Upholding the highest ethical standards in all our services, fostering trust and transparency.',
+    missionDesc: '*Compassionate Care:* We treat every patient with kindness and respect, ensuring a comfortable and welcoming environment. \n *Innovation:* Embracing the latest advancements in dental and cosmetic laser technology to provide effective and efficient treatments.',
   },
 ];
 
