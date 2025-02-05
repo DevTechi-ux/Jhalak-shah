@@ -368,7 +368,7 @@ const Navbar = () => {
                       </ul> */}
                     </li>
                     <li>
-                      <Link to={'about'} >About</Link>
+                      <Link to={'about'} href={'about'}>About</Link>
                     </li>
                     {/* <li className='has-dropdown'>
                       <Link to={'/'}>Pages</Link>
@@ -438,7 +438,7 @@ const Navbar = () => {
                       </ul>
                     </li> */}
                     <li>
-                      <Link to={'contact'}>Contact</Link>
+                      <Link to={'contact'} >Contact</Link>
                     </li>
                   </ul>
                 </nav>
@@ -605,11 +605,6 @@ const Navbar = () => {
                   <FaXTwitter />
                 </Link>
               </li>
-              {/* <li>
-                <Link to={'https://www.instagram.com/jhalakdentist'}>
-                  <FaPinterestP />
-                </Link>
-              </li> */}
               <li>
                 <Link to={'https://www.linkedin.com/company/jhalak-dentist'}>
                   <FaLinkedinIn />
