@@ -317,7 +317,7 @@ const Navbar = () => {
                         Home
                       </Link>
                       {/* <div className='submenu has-homemenu mega-menu !hidden lg:!block'> */}
-                        <div className='grid grid-cols-1 lg:grid-cols-4 lg:gap-3'>
+                        {/* <div className='grid grid-cols-1 lg:grid-cols-4 lg:gap-3'> */}
                           {/* <div className='homemenu'>
                             <div className='homemenu-thumb'>
                               <Link to={'/'}>
@@ -353,7 +353,7 @@ const Navbar = () => {
                               </Link>
                             </div>
                           </div> */}
-                        </div>
+                        {/* </div> */}
                       {/* </div> */}
                       {/* <ul className='submenu lg:hidden'>
                         <li>
@@ -368,7 +368,7 @@ const Navbar = () => {
                       </ul> */}
                     </li>
                     <li>
-                      <Link to={'/about'}>About</Link>
+                      <Link to={'about'}>About</Link>
                     </li>
                     {/* <li className='has-dropdown'>
                       <Link to={'/'}>Pages</Link>
@@ -406,7 +406,7 @@ const Navbar = () => {
                       </ul>
                     </li> */}
                     <li>
-                      <Link to={'/service'}>Services</Link>
+                      <Link to={'service'}>Services</Link>
                       {/* <ul className='submenu'>
                         <li>
                           <Link to={'/service'}>service</Link>
@@ -438,7 +438,7 @@ const Navbar = () => {
                       </ul>
                     </li> */}
                     <li>
-                      <Link to={'/contact'} >Contact</Link>
+                          <Link to={'contact'} >Contact</Link>
                     </li>
                   </ul>
                 </nav>

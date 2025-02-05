@@ -24,13 +24,16 @@ import FaqInner from '../Pages/InnerPage/Faq/FaqInner';
 import TeamDetails from '../Pages/InnerPage/TeamDetails/TeamDetails';
 import BlogLeftSidebar from '../Pages/InnerPage/BlogLeftSidebar/BlogLeftSidebar';
 import BlogRightSidebar from '../Pages/InnerPage/BlogRightSidebar/BlogRightSidebar';
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
+
+
 // import Main4 from '../Main/Main4';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Main />,
+
   // {
   //   path: '/home2',
   //   element: <Main2 />,
@@ -67,7 +70,8 @@ const router = createBrowserRouter([
       { path: 'contact', element: <ContactInner /> },
     ],
   },
-  { path: '*', errorElement: <ErrorPage /> },
+  { path: '*', element: <ErrorPage /> },
 ]);
+
 
 export default router;
