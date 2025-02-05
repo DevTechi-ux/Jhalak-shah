@@ -368,8 +368,11 @@ const Navbar = () => {
                       </ul> */}
                     </li>
                     <li>
-                      <Link to={'about'}>About</Link>
+                      {/* <Link to={'/about'}>About</Link> */}
+                      <a href="/about">About</a>
                     </li>
+
+
                     {/* <li className='has-dropdown'>
                       <Link to={'/'}>Pages</Link>
                       <ul className='submenu'>
@@ -406,7 +409,7 @@ const Navbar = () => {
                       </ul>
                     </li> */}
                     <li>
-                      <Link to={'service'}>Services</Link>
+                      <Link to={'/service'}>Services</Link>
                       {/* <ul className='submenu'>
                         <li>
                           <Link to={'/service'}>service</Link>
@@ -438,10 +441,11 @@ const Navbar = () => {
                       </ul>
                     </li> */}
                     <li>
-                      <Link to={'contact'} >Contact</Link>
+                      <Link to={'/contact'} >Contact</Link>
                     </li>
                   </ul>
                 </nav>
+
               </div>
             </div>
             <div className='col-span-3'>
@@ -578,7 +582,7 @@ const Navbar = () => {
                 <h4>Get Update</h4>
               </div>
               <form
-                action='#'
+                action='/'
                 method='post'
               >
                 <div className='relative'>
