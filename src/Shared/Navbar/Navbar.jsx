@@ -368,9 +368,9 @@ const Navbar = () => {
                       </ul> */}
                     </li>
                     <li>
-                      <Link to={'about'} >About</Link>
+                      <Link to={'about'}>About</Link>
                     </li>
-                     <li className='has-dropdown'>
+                    {/* <li className='has-dropdown'>
                       <Link to={'/'}>Pages</Link>
                       <ul className='submenu'>
                         <li>
@@ -379,8 +379,8 @@ const Navbar = () => {
                         <li>
                           <Link to={'/service'}>Our Service</Link>
                         </li>
-                      
-                        {/*<Link to={'/team'}>team member</Link>
+                        <li>
+                          <Link to={'/team'}>team member</Link>
                         </li>
                         <li>
                           <Link to={'/team_details'}>team details</Link>
@@ -402,21 +402,19 @@ const Navbar = () => {
                         </li>
                         <li>
                           <Link to={'/contact'}>Contact Us</Link>
-                        </li>*/}
+                        </li>
                       </ul>
-                    </li> 
+                    </li> */}
                     <li>
                       <Link to={'service'}>Services</Link>
-                       <ul className='submenu'>
-                        {/* <li>
+                      {/* <ul className='submenu'>
+                        <li>
                           <Link to={'/service'}>service</Link>
-                        </li> */}
-                        </ul>
-                        {/* <li>
+                        </li>
+                        <li>
                           <Link to={'/service_details'}>service details</Link>
-                        </li> */}
-                      {/* </ul> */}
-
+                        </li>
+                      </ul> */}
                     </li>
                     {/* <li className='has-dropdown'>
                       <Link to={'/'}>Blog</Link>
@@ -440,7 +438,7 @@ const Navbar = () => {
                       </ul>
                     </li> */}
                     <li>
-                      <Link to={'/contact'}>Contact</Link>
+                      <Link to={'contact'} >Contact</Link>
                     </li>
                   </ul>
                 </nav>
@@ -607,11 +605,6 @@ const Navbar = () => {
                   <FaXTwitter />
                 </Link>
               </li>
-              {/* <li>
-                <Link to={'https://www.instagram.com/jhalakdentist'}>
-                  <FaPinterestP />
-                </Link>
-              </li> */}
               <li>
                 <Link to={'https://www.linkedin.com/company/jhalak-dentist'}>
                   <FaLinkedinIn />

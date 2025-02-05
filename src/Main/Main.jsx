@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import Navbar from '../Shared/Navbar/Navbar';
+// import Navbar from '../Shared/Navbar/Navbar';
+import Navbar from '../Shared/Navbar/Navbar2';
 import Footer from '../Shared/Footer/Footer';
 // import Cursor from '../Shared/Cursor/Cursor';
 import AOS from 'aos';
@@ -11,6 +12,8 @@ import Lenis from 'lenis';
 import 'lenis/dist/lenis.css';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+// import Navbar2 from '../Shared/Navbar/Navbar2';
+
 
 const Main = () => {
   useEffect(() => {
