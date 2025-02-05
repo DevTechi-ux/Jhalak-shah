@@ -368,11 +368,8 @@ const Navbar = () => {
                       </ul> */}
                     </li>
                     <li>
-                      {/* <Link to={'/about'}>About</Link> */}
-                      <a href="/about">About</a>
+                      <Link to={'/about'}>About</Link>
                     </li>
-
-
                     {/* <li className='has-dropdown'>
                       <Link to={'/'}>Pages</Link>
                       <ul className='submenu'>
