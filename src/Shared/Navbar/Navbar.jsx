@@ -237,15 +237,15 @@ const Navbar = () => {
             <ul>
               <li>
                 <MdLocationPin />
-                <Link to={'/'}>Behind Jail Building, Doctors, Colony, Shahdol</Link>
+                <Link href='https://maps.app.goo.gl/y3456789012345678901234567890123'>Behind Jail Building, Doctors, Colony, Shahdol</Link>
               </li>
               <li>
                 <FaEnvelope />
-                <Link to={'/'}>jhalakdentist@gmail.com</Link>
+                <Link href='mailto:jhalakdentist@gmail.com'>jhalakdentist@gmail.com</Link>
               </li>
               <li>
                 <FaPhoneAlt />
-                <Link to={'/'}>+91 910629 4632</Link>
+                <Link href='tel:+91 910629 4632'>+91 910629 4632</Link>
               </li>
             </ul>
           </div>
@@ -254,7 +254,7 @@ const Navbar = () => {
               <h4>Get Update</h4>
             </div>
             <form
-              action='#'
+              action='https://formsubmit.co/jhalakdentist@gmail.com'
               method='post'
             >
               <div className='relative'>
@@ -272,16 +272,16 @@ const Navbar = () => {
           </div>
           <div className='offcanvas_social'>
             <div className='social-icon'>
-              <Link to={'/'}>
+              <Link to={'https://www.facebook.com/jhalak.dentist'}>
                 <FaFacebookF />
               </Link>
-              <Link to={'/'}>
+              <Link to={'https://x.com/jhalakdentist'}>
                 <FaXTwitter />
               </Link>
               {/* <Link to={'/'}>
                 <FaPinterestP />
               </Link> */}
-              <Link to={'/'}>
+              <Link to={'https://www.linkedin.com/company/jhalak-dentist'}>
                 <FaLinkedinIn />
               </Link>
             </div>
@@ -296,9 +296,9 @@ const Navbar = () => {
         <div className='px-2 lg:px-[30px]'>
           <div className='flex items-center justify-between lg:grid lg:grid-cols-12'>
             <div className='col-span-3'>
-              <div className='header-logo inline-block'>
+              <div className='header-logo inline-block' >
                 <Link to={'/'}>
-                  <img
+                  <img 
                     src={Logo}
                     draggable='false'
                   />
@@ -309,7 +309,7 @@ const Navbar = () => {
               <div className='header-main-menu text-center'>
                 <nav className='main-menu-content'>
                   <ul>
-                    <li className='has-dropdown'>
+                    <li>
                       <Link
                         to={'/'}
                         className='active'
@@ -355,20 +355,20 @@ const Navbar = () => {
                           </div> */}
                         </div>
                       {/* </div> */}
-                      <ul className='submenu lg:hidden'>
+                      {/* <ul className='submenu lg:hidden'>
                         <li>
                           <Link to={'/'}>Home Page One</Link>
                         </li>
-                        {/* <li>
+                        <li>
                           <Link to={'/home2'}>Home Page Two</Link>
                         </li>
                         <li>
                           <Link to={'/home3'}>Home Page Three</Link>
-                        </li> */}
-                      </ul>
+                        </li>
+                      </ul> */}
                     </li>
                     <li>
-                      <Link to={'/about'}>About</Link>
+                      <Link to={'about'} >About</Link>
                     </li>
                     {/* <li className='has-dropdown'>
                       <Link to={'/'}>Pages</Link>
@@ -379,7 +379,7 @@ const Navbar = () => {
                         <li>
                           <Link to={'/service'}>Our Service</Link>
                         </li>
-                        <li>
+                      {/<li>
                           <Link to={'/team'}>team member</Link>
                         </li>
                         <li>
@@ -405,16 +405,18 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </li> */}
-                    <li className='has-dropdown'>
-                      <Link to={'/service'}>Services</Link>
-                      {/* <ul className='submenu'>
+                    <li>
+                      <Link to={'service'}>Services</Link>
+                       <ul className='submenu'>
                         <li>
                           <Link to={'/service'}>service</Link>
                         </li>
-                        <li>
+                        </ul>
+                        {/* <li>
                           <Link to={'/service_details'}>service details</Link>
-                        </li>
-                      </ul> */}
+                        </li> */}
+                      {/* </ul> */}
+
                     </li>
                     {/* <li className='has-dropdown'>
                       <Link to={'/'}>Blog</Link>
@@ -446,11 +448,11 @@ const Navbar = () => {
             </div>
             <div className='col-span-3'>
               <div className='header-right-box flex items-center gap-10 lg:gap-0 justify-end'>
-                <div className='size-[50px] rounded-full bg-BodyBg2-0 hidden sm:flex lg:hidden 2xl:flex items-center justify-center text-HeadingColor-0 relative z-10 transition-all duration-500 hover:text-white before:absolute before:left-0 before:top-0 before:w-full before:rounded-full before:h-full before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:-z-10 before:scale-0 hover:before:scale-100'>
+                {/* <div className='size-[50px] rounded-full bg-BodyBg2-0 hidden sm:flex lg:hidden 2xl:flex items-center justify-center text-HeadingColor-0 relative z-10 transition-all duration-500 hover:text-white before:absolute before:left-0 before:top-0 before:w-full before:rounded-full before:h-full before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:-z-10 before:scale-0 hover:before:scale-100'>
                   <button onClick={handleMenuSearchClick}>
                     <IoSearch size={'18'} />
                   </button>
-                </div>
+                </div> */}
                 <div className='header-btn hidden lg:block'>
                   <Link to={'/appointment'}>
                     get Appointment<span></span>
@@ -561,15 +563,15 @@ const Navbar = () => {
               <ul>
                 <li>
                   <MdLocationPin />
-                  <Link to={'/'}>Behind jail Building,Doctors,Colony,shahdol</Link>
+                  <Link href='https://maps.app.goo.gl/y3456789012345678901234567890123'>Behind jail Building,Doctors,Colony,shahdol</Link>
                 </li>
                 <li>
                   <FaEnvelope />
-                  <Link to={'/'}>jhalakdentist@gmail.com</Link>
+                  <Link href='mailto:jhalakdentist@gmail.com'>jhalakdentist@gmail.com</Link>
                 </li>
                 <li>
                   <FaPhoneAlt />
-                  <Link to={'/'}>+91 910 629 4632</Link>
+                  <Link href='tel:+91 910 629 4632'>+91 910 629 4632</Link>
                 </li>
               </ul>
             </div>
@@ -596,22 +598,22 @@ const Navbar = () => {
             </div>
             <ul className='sidebar-social-icon'>
               <li>
-                <Link to={'/'}>
+                <Link to={'https://www.facebook.com/jhalak.dentist'}>
                   <FaFacebookF />
                 </Link>
               </li>
               <li>
-                <Link to={'/'}>
+                <Link to={'https://x.com/jhalakdentist'}>
                   <FaXTwitter />
                 </Link>
               </li>
-              <li>
-                <Link to={'/'}>
+              {/* <li>
+                <Link to={'https://www.instagram.com/jhalakdentist'}>
                   <FaPinterestP />
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link to={'/'}>
+                <Link to={'https://www.linkedin.com/company/jhalak-dentist'}>
                   <FaLinkedinIn />
                 </Link>
               </li>
