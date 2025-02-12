@@ -39,7 +39,7 @@ const Appoinment = () => {
             />
           </div>
           <h5 className='font-AlbertSans font-medium text-sm sm:text-base text-PrimaryColor-0 uppercase mb-4'>
-            FINANCE CONSULTING
+            DENTAL CONSULTING
           </h5>
           <h1 className='font-AlbertSans font-bold text-HeadingColor-0 text-[16px] leading-[23px] sm:text-[22px] sm:leading-[35px] md:text-[30px] md:leading-[35px] lg:text-[28px] lg:leading-[35px] xl:text-[32px] xl:leading-[39px] 2xl:text-[32px] 2xl:leading-[39px]'>
             Make an Online Appointment <br /> Booking For Treatment Patients

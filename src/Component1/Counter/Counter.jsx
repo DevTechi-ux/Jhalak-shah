@@ -37,7 +37,7 @@ const Counter = () => {
                   <div>
                     <CountUp
                       start={-11}
-                      end={'12'}
+                      end={'15'}
                       suffix={'K+'}
                       className='font-AlbertSans text-3xl sm:text-4xl md:text-[50px] text-white font-bold'
                     />

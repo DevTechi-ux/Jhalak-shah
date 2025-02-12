@@ -25,7 +25,7 @@
               data-aos-duration='1000'
             >
               <h1 className='font-AlbertSans font-bold uppercase text-HeadingColor-0 text-xl leading-[30px] sm:text-3xl sm:leading-[40px] md:text-[40px] md:leading-[50px] lg:text-[42px] lg:leading-[52px] xl:text-[52px] xl:leading-[62px] 2xl:text-[60px] 2xl:leading-[70px]'>
-                About Medical
+                About clinic
               </h1>
               <img
                 src={aboutShape}

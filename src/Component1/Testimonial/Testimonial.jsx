@@ -14,7 +14,7 @@ const testiData = [
     id: 1,
     testiQuote: testiQuote,
     testiDesc: `A satisfied patient review for a dental clinic might look something like: "I cannot recommend Rajnayan Multispeciality Dental & Cosmetic Laser Clinic enough! The staff are incredibly friendly and welcoming, and Dr. Jhalak Shah explained everything clearly and made me feel completely at ease during my procedure. The office is clean and modern, and I was very happy with the quality of care I received.`,
-    testiName: 'Nitish Chandraker',
+    testiName: 'priya sharma',
     testiDesignation: 'Satisfied Patient',
     testiProfile: testiProfile,
   },
@@ -23,7 +23,7 @@ const testiData = [
     testiQuote: testiQuote,
     testiDesc: `A satisfied patient review for a dental clinic might look something like: "I cannot recommend Rajnayan Multispeciality Dental & Cosmetic Laser Clinic enough! The staff are incredibly friendly and welcoming, and Dr. Jhalak Shah explained everything clearly and made me feel completely at ease during my procedure. The office is clean and modern, and I was very happy with the quality of care I received.`,
 
-    testiName: 'Nitish Chandraker',
+    testiName: 'Pooja shukla',
     testiDesignation: 'Satisfied Patient',
     testiProfile: testiProfile,
   },
@@ -87,7 +87,7 @@ const Testimonial = () => {
               />
               <div className='hidden sm:block absolute top-7 left-7 px-8 pb-10 pt-7 border-2 border-white bg-white bg-opacity-15 backdrop-filter backdrop-blur-md rounded-2xl'>
                 <h4 className='font-AlbertSans font-semibold text-2xl text-HeadingColor-0 pb-5'>
-                  Get Free Consultation
+                  Get Free Consultation on every wensday
                 </h4>
                 <div className='inline-block'>
                   <Link to={'/appointment'}>

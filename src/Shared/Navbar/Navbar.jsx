@@ -225,8 +225,8 @@ const Navbar = () => {
           </div>
           <div className='offcanvas_title'>
             <p>
-              Stay healthy with a balanced diet, regular exercise, and enough
-              sleep. Manage stress and get regular check-ups.
+              Creating Beautiful Smiles Every Day,
+                 Where Dental Excellence Meets Compassionate Care..
             </p>
           </div>
           <div className='main-menu-mobile lg:none'></div>
@@ -509,8 +509,8 @@ const Navbar = () => {
             </div>
             <div className='sidebar_title'>
               <p>
-                Stay healthy with a balanced diet, regular exercise, and enough
-                sleep. Manage stress and get regular check-ups.
+                Creating Beautiful Smiles Every Day,
+                 Where Dental Excellence Meets Compassionate Care..
               </p>
             </div>
             <div>

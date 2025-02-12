@@ -19,8 +19,8 @@ const Subscribe = () => {
                 />
               </div>
               <h3 className='font-AlbertSans font-bold text-2xl sm:text-3xl flex-1 md:text-[32px] text-white leading-[38px]'>
-              Since 2007, We have been serving the medical community, 
-                <br className='hidden md:block' /> caring for over 1,200+ patients.
+              Since 2010, We have been serving the Dental community, 
+                <br className='hidden md:block' /> caring for over 1,2000+ patients.
               </h3>
             </div>
             <div

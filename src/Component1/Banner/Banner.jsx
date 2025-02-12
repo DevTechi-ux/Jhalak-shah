@@ -36,7 +36,7 @@ const Banner = () => {
               </div>
               <div className='flex items-center justify-center sm:gap-5'>
                 <h1 className='font-AlbertSans font-extrabold text-3xl sm:text-5xl md:text-[70px] xl:text-[110px] text-white uppercase'>
-                  HealthCare
+                  RAJNAYAN
                 </h1>
                 <img
                   src={bannerHeart}
@@ -62,7 +62,7 @@ const Banner = () => {
                   </h5>
                 </div>
                 <h1 className='font-AlbertSans font-extrabold text-3xl sm:text-5xl md:text-[70px] xl:text-[110px] text-white uppercase'>
-                  Doctors
+                  CLINIC
                 </h1>
               </div>
             </div>
@@ -76,7 +76,7 @@ const Banner = () => {
                 </div>
                 <div className='flex-1'>
                   <h5 className='font-AlbertSans font-semibold text-2xl text-white'>
-                    Best Medical
+                    Best CLINIC
                   </h5>
                   <p className='font-DMSans text-TextColor-0 lg:text-white xl:text-TextColor-0 mt-[6px]'>
                     Rapidiously reinvent long-term{' '}
@@ -87,7 +87,7 @@ const Banner = () => {
               <div>
                 <Link to={'/appointment'}>
                   <button className='primary-btn'>
-                    Free Consultation
+                    Consultation
                     <GoArrowRight
                       size={'22'}
                       className='-rotate-45'

@@ -224,8 +224,8 @@ const Navbar3 = () => {
           </div>
           <div className='offcanvas_title'>
             <p>
-              Stay healthy with a balanced diet, regular exercise, and enough
-              sleep. Manage stress and get regular check-ups.
+              Your Gateway to Dental Wellness.,
+              A Healthy Smile, A Confident You..
             </p>
           </div>
           <div className='main-menu-mobile lg:none'></div>

@@ -32,7 +32,7 @@ const Footer = () => {
             <p className='font-AlbertSans xl:text-lg 2xl:text-xl font-medium text-white mt-[52px] mb-7'>
               Completely promote interdependent systems for{' '}
               <br className='hidden sm:block' /> Latest update news this
-              Medical.
+              clinic.
             </p>
             <form
               action='https://formspree.io/f/mgvoywga'
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
           <div className='col-span-12 md:col-span-6 lg:col-span-2'>
             <h4 className='font-AlbertSans text-2xl text-white font-semibold mb-[31px]'>
-              Company
+              Clinic
             </h4>
             <ul className='overflow-hidden'>
               <li>
