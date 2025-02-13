@@ -19,7 +19,7 @@ const teamData = [
   {
     id: 1,
     teamThumb: teamThumb,
-    teamTitle: 'Dr. Jhalak Shah',
+    teamTitle: 'Dr. Jhalak gandhi',
     socialIcon: <FaInstagram />,
     socialIcon2: <FaFacebookF />,
     socialIcon3: <FaLinkedinIn />,

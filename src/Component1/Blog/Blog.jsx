@@ -15,7 +15,7 @@ const BlogData = [
     blogPostByIcon: <FaCircle />,
     blogDateIcon: <FaCircle />,
     blogDate: 'April 04, 2024',
-    blogPostBy: 'Admin',
+    blogPostBy: 'Dr. jhalak shah',
     blogUrl: '/blog_details',
     blogTitle: 'Top 10 Popular Equipments for Medical Industre',
   },
@@ -25,7 +25,7 @@ const BlogData = [
     blogPostByIcon: <FaCircle />,
     blogDateIcon: <FaCircle />,
     blogDate: 'April 14, 2024',
-    blogPostBy: 'Admin',
+    blogPostBy: 'Dr. jhalak shah',
     blogUrl: '/blog_details',
     blogTitle: 'How to maintain Patient for Better Surgery',
   },
@@ -35,7 +35,7 @@ const BlogData = [
     blogDate: 'April 24, 2024',
     blogPostByIcon: <FaCircle />,
     blogDateIcon: <FaCircle />,
-    blogPostBy: 'Admin',
+    blogPostBy: 'Dr. jhalak shah',
     blogUrl: '/blog_details',
     blogTitle: 'Most Popular Advises for Kids Happy & Smile Life',
   },
@@ -45,7 +45,7 @@ const BlogData = [
     blogDate: 'April 28, 2024',
     blogPostByIcon: <FaCircle />,
     blogDateIcon: <FaCircle />,
-    blogPostBy: 'Admin',
+    blogPostBy: 'Dr. jhalak shah',
     blogUrl: '/blog_details',
     blogTitle: 'How to maintain Patient for Better Surgery',
   },
@@ -82,7 +82,7 @@ const Blog = () => {
             data-aos-duration='1000'
           >
             <h1 className='font-AlbertSans font-bold uppercase text-HeadingColor-0 text-xl leading-[30px] sm:text-3xl sm:leading-[40px] md:text-[40px] md:leading-[50px] lg:text-[50px] lg:leading-[60px] xl:text-[52px] xl:leading-[62px] 2xl:text-[60px] 2xl:leading-[70px]'>
-              Read Our <br />
+              Read My <br />
               Latest Blog
             </h1>
           </div>
